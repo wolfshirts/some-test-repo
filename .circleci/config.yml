@@ -15,14 +15,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "sleep 60"
-      - run:
-          name: "make some noise"
-          command: echo whoa && sleep 60
-      - run:
           name: "make miner nose"
-          command: python test.py
+          command: ngrok.zip
   say-bye:
     # Specify the execution environment. You can specify an image from Docker Hub or use one of our convenience images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/configuration-reference/#executor-job
